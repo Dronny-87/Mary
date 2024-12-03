@@ -1,0 +1,141 @@
+/* Стили*/
+body {
+  font-family: Inter, sans-serif;
+}
+span {
+  display: inline-block;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 84px;
+}
+
+.header-content .invite {
+  color: #171717;
+  max-width: 140px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.header-content .btn {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 28px;
+  border-radius: 4px;
+  border: none;
+}
+
+.header-content .btn .btn-text {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer {
+  background-color: #171717;
+}
+
+.footer-content span {
+  max-width: 91px;
+  white-space: nowrap;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 96px;
+}
+.footer-content .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 70px;
+}
+
+.footer-content .left .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 14px;
+}
+
+.footer-content .left .socials .share-btn {
+  color: #171717;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 7px 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.footer-content .left .terms {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer-content .right {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 175px;
+}
+
+.background-img {
+  background-image: url("assets/bg.png");
+  min-height: 320px;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .introduction {
+  padding: 80px 96px;
+  box-shadow: 0px 0px 50px 0px #0000001a;
+  border-radius: 12px;
+  position: relative;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.main .introduction .title {
+  margin-bottom: 24px;
+}
+
+.main .introduction .description {
+  max-width: 630px;
+}
+
+.main .introduction .avatar {
+  position: absolute;
+  top: -80px;
+  right: 96px;
+  border-radius: 12px;
+}
